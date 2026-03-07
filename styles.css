@@ -33,6 +33,12 @@ nav a {
 
 main {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  height: 70vh;
 }
 
 footer {
