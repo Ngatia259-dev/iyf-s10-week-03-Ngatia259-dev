@@ -46,3 +46,38 @@ footer {
   padding: 10px;
   background-color: #f4f4f4;
 }
+
+    /*  the project page */
+.project-main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  /* width: 300px; */
+  align-items: center;
+  justify-content: centers;
+  text-align: center;
+}
+
+.terminal-commands {
+  display: flex;
+  justify-content: space-between;
+}
+
+.terminal-div {
+  max-width: 400px;
+  width: 90%;
+  background-color: aqua;
+}
+
+.primary-image {
+  max-width: 350px;
+  height: auto;
+}
+.image-css {
+  width: 80%;
+}
+
+.image-output {
+  width: 80%;
+  
+}
