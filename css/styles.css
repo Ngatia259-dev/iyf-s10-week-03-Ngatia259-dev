@@ -37,6 +37,10 @@ main {
   flex-direction: column;
 }
 
+.project-h {
+  color: rgb(185, 158, 123);
+}
+
 .container {
   height: 70vh;
 }
@@ -51,22 +55,31 @@ footer {
 .project-main {
   display: flex;
   justify-content: center;
-  margin-bottom: 4rem;
   /* width: 300px; */
   align-items: center;
   justify-content: centers;
   text-align: center;
+  margin-bottom: 5rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
 }
 
 .terminal-commands {
-  display: flex;
+    display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .terminal-div {
+  flex: 1 1 300px;
   max-width: 400px;
-  width: 90%;
-  background-color: aqua;
+  width: 100%;
+  background-color: rgb(185, 158, 123);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .primary-image {
@@ -79,5 +92,20 @@ footer {
 
 .image-output {
   width: 80%;
-  
+  height: 70%;
+}
+
+.project-p {
+  width: 90%;
+}
+
+.terminal-h4 {
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .terminal-commands {
+    flex-direction: column;
+    align-items: center;
+  }
 }
