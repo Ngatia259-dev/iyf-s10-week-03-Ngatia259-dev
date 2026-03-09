@@ -37,6 +37,10 @@ main {
   flex-direction: column;
 }
 
+.home-p {
+  color: rgb(8, 8, 139);
+}
+
 .project-h {
   color: rgb(185, 158, 123);
 }
